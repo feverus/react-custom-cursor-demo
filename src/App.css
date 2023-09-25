@@ -1,0 +1,81 @@
+button {
+  padding: 1em;
+  border-radius: 10px;
+  border: none;
+  margin: 1em;
+  transition: all 300ms;
+}
+
+button:hover {
+  background-color: #fff5;
+}
+
+a {
+  text-decoration: none;
+}
+
+textarea {
+  width: 400px;
+}
+
+.fullwidth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: nowrap;
+  padding: 20px 0;
+}
+.fullwidth>div {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 700px;
+  justify-content: space-between;
+}
+
+.exampleOne, .exampleTwo, .exampleShell {
+  border-radius: 10px;
+}
+
+
+.exampleOne {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(135deg, #9e9e9e, #277e27);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.exampleTwo {
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(135deg, #9e9e9e, #27277e);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.exampleShell {
+  width: 300px;
+  height: 300px;
+  background-color:lightseagreen;
+  text-align: center;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hoverOne {
+  transform: scale(0.6);
+  filter: hue-rotate(180deg);
+  opacity: 0.6;
+}
